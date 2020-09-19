@@ -2,7 +2,7 @@
 
 ## P 2.1: Data Cleaning
 
-<img src="images/workflow.PNG">
+<img src="images/workflow1.PNG">
 
 ### Step 1: Business and Data Understanding
 
@@ -22,6 +22,8 @@ Are there any cities that are outliers in the training set? Which outlier have y
 Yes, we found outlier cities “Cheyenne” and “Gillette” in the training dataset based on the IQR analysis and decided to remove the city “Gillette” because it has lower 2010 census population, pawdacity sale, population density, and total families than another outlier city that may have played a vital role in the sale.
 
 ## P 2.2: Recommend a City
+
+<img src="images/workflow2.PNG">
 
 ### Step 1: Linear Regression
 
